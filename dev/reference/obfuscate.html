@@ -65,7 +65,7 @@ there's no way for an automated tool to grab your obfuscated secrets."><meta pro
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>Obfuscate mildly secret information</h1>
-      <small class="dont-index">Source: <a href="https://github.com/r-lib/httr2/blob/master/R/secret.R" class="external-link"><code>R/secret.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/r-lib/httr2/blob/main/R/secret.R" class="external-link"><code>R/secret.R</code></a></small>
       <div class="d-none name"><code>obfuscate.Rd</code></div>
     </div>
 
@@ -107,13 +107,13 @@ so it can be unobfuscated when needed.</p>
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">obfuscate</span><span class="op">(</span><span class="st">"good morning"</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> obfuscated("JtLA5xognCXfsiUAK9VTWYEu1a2GTqp4c1OvMg")</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> obfuscated("_0lMYQyIRM3bsq9r5EWE64vho8P1hO4xb0TgRg")</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Every time you obfuscate you'll get a different value because it</span></span></span>
 <span class="r-in"><span><span class="co"># includes 16 bytes of random data which protects against certain types of</span></span></span>
 <span class="r-in"><span><span class="co"># brute force attack</span></span></span>
 <span class="r-in"><span><span class="fu">obfuscate</span><span class="op">(</span><span class="st">"good morning"</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> obfuscated("ZNNjLGeY9fccyhrN0sWLt9k4sqV7huW7zqQdPg")</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> obfuscated("w6eVApSQPlWbHuS0d-6RqhUwF27vWFoIKE8_2Q")</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
