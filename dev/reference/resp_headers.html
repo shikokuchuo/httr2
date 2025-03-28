@@ -19,7 +19,7 @@ resp_header_exists() checks if a header is present.
 
     <a class="navbar-brand me-2" href="../index.html">httr2</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.1.0.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.1.2.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,39 +106,37 @@ resp_header_exists() checks if a header is present.
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">resp</span> <span class="op">&lt;-</span> <span class="fu"><a href="request.html">request</a></span><span class="op">(</span><span class="st">"https://httr2.r-lib.org"</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="req_perform.html">req_perform</a></span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">resp</span> <span class="op">|&gt;</span> <span class="fu">resp_headers</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #0000BB;">&lt;httr2_headers&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #0000BB;">&lt;httr2_headers&gt;</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">server</span>: GitHub.com</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-type</span>: text/html; charset=utf-8</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-origin-cache</span>: HIT</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">last-modified</span>: Sun, 09 Feb 2025 23:01:18 GMT</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">last-modified</span>: Thu, 27 Mar 2025 16:51:51 GMT</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">access-control-allow-origin</span>: *</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">etag</span>: W/"67a933be-4b1b"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">expires</span>: Sun, 09 Feb 2025 23:33:36 GMT</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">etag</span>: W/"67e58227-4b42"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">expires</span>: Fri, 28 Mar 2025 13:33:30 GMT</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">cache-control</span>: max-age=600</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-encoding</span>: gzip</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-proxy-cache</span>: MISS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-github-request-id</span>: F1D8:9699A:4D18939:4ED1091:67A938F7</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-github-request-id</span>: 736C:694F3:D13456:DE819D:67E6A2D2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">accept-ranges</span>: bytes</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">date</span>: Mon, 10 Feb 2025 00:20:57 GMT</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">date</span>: Fri, 28 Mar 2025 14:59:52 GMT</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">via</span>: 1.1 varnish</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">age</span>: 16</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-served-by</span>: cache-pao-kpao1770038-PAO</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">age</span>: 132</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-served-by</span>: cache-dfw-kdfw8210120-DFW</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-cache</span>: HIT</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-cache-hits</span>: 4</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-timer</span>: S1739146857.179526,VS0,VE1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-timer</span>: S1743173993.669467,VS0,VE0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">vary</span>: Accept-Encoding</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-fastly-request-id</span>: e9afef75eee3a0dd75e9b53e01c9bd3723bb80ed</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-length</span>: 4736</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-fastly-request-id</span>: 363a6c265d185ac9f72fec82a640b903979806d9</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-length</span>: 4746</span>
 <span class="r-in"><span><span class="va">resp</span> <span class="op">|&gt;</span> <span class="fu">resp_headers</span><span class="op">(</span><span class="st">"x-"</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #0000BB;">&lt;httr2_headers&gt;</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-origin-cache</span>: HIT</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #0000BB;">&lt;httr2_headers&gt;</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-proxy-cache</span>: MISS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-github-request-id</span>: F1D8:9699A:4D18939:4ED1091:67A938F7</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-served-by</span>: cache-pao-kpao1770038-PAO</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-github-request-id</span>: 736C:694F3:D13456:DE819D:67E6A2D2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-served-by</span>: cache-dfw-kdfw8210120-DFW</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-cache</span>: HIT</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-cache-hits</span>: 4</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-timer</span>: S1739146857.179526,VS0,VE1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-fastly-request-id</span>: e9afef75eee3a0dd75e9b53e01c9bd3723bb80ed</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-timer</span>: S1743173993.669467,VS0,VE0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">x-fastly-request-id</span>: 363a6c265d185ac9f72fec82a640b903979806d9</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">resp</span> <span class="op">|&gt;</span> <span class="fu">resp_header_exists</span><span class="op">(</span><span class="st">"server"</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] TRUE</span>
