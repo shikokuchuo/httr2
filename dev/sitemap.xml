@@ -8,6 +8,7 @@
 <url><loc>https://httr2.r-lib.org/dev/authors.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/index.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/news/index.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/StreamingBody.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/curl_translate.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/example_url.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/httr2-package.html</loc></url>
@@ -16,7 +17,7 @@
 <url><loc>https://httr2.r-lib.org/dev/reference/iterate_with_offset.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/jwt_claim.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/last_response.html</loc></url>
-<url><loc>https://httr2.r-lib.org/dev/reference/multi_req_perform.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/new_response.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/oauth_cache_clear.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/oauth_cache_path.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/oauth_client.html</loc></url>
@@ -36,6 +37,10 @@
 <url><loc>https://httr2.r-lib.org/dev/reference/req_cookie_preserve.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/req_dry_run.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/req_error.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/req_get_body_type.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/req_get_headers.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/req_get_method.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/req_get_url.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/req_headers.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/req_method.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/req_oauth.html</loc></url>
@@ -75,6 +80,7 @@
 <url><loc>https://httr2.r-lib.org/dev/reference/resp_retry_after.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/resp_status.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/resp_stream_raw.html</loc></url>
+<url><loc>https://httr2.r-lib.org/dev/reference/resp_timing.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/resp_url.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/response.html</loc></url>
 <url><loc>https://httr2.r-lib.org/dev/reference/resps_successes.html</loc></url>
