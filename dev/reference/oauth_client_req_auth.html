@@ -35,7 +35,7 @@ in Section 2.2 of RFC 7523.
 You will generally not call these functions directly but will instead
 specify them through the auth argument to oauth_client(). The req and
 client parameters are automatically filled in; other parameters come from
-the auth_params argument."><meta property="og:image" content="https://httr2.r-lib.org/logo.png"><meta name="robots" content="noindex"><script defer data-domain="httr2.r-lib.org,all.tidyverse.org" src="https://plausible.io/js/plausible.js"></script></head><body>
+the auth_params argument."><meta property="og:image" content="https://httr2.r-lib.org/logo.png"><meta name="robots" content="noindex"><script src="https://cdn.jsdelivr.net/gh/posit-dev/supported-by-posit/js/badge.min.js" data-max-height="43" data-light-bg="#666f76" data-light-fg="#f9f9f9"></script><script defer data-domain="httr2.r-lib.org,all.tidyverse.org" src="https://plausible.io/js/plausible.js"></script></head><body>
     <a href="#container" class="visually-hidden-focusable">Skip to content</a>
 
 
@@ -43,7 +43,7 @@ the auth_params argument."><meta property="og:image" content="https://httr2.r-li
 
     <a class="navbar-brand me-2" href="../index.html">httr2</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.2.1.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.2.2.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -163,7 +163,7 @@ JWT header.</p></dd>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-length</span>: 35</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-type</span>: application/x-www-form-urlencoded</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">host</span>: example.com</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">user-agent</span>: httr2/1.2.1.9000 r-curl/7.0.0 libcurl/8.5.0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">user-agent</span>: httr2/1.2.2.9000 r-curl/7.0.0 libcurl/8.5.0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> client_id=12345&amp;client_secret=56789</span>
 <span class="r-in"><span></span></span>
@@ -181,7 +181,7 @@ JWT header.</p></dd>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">accept-encoding</span>: deflate, gzip, br, zstd</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">authorization</span>: <span style="color: #555555;">&lt;REDACTED&gt;</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">host</span>: example.com</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">user-agent</span>: httr2/1.2.1.9000 r-curl/7.0.0 libcurl/8.5.0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">user-agent</span>: httr2/1.2.2.9000 r-curl/7.0.0 libcurl/8.5.0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">client3</span> <span class="op">&lt;-</span> <span class="fu"><a href="oauth_client.html">oauth_client</a></span><span class="op">(</span></span></span>
@@ -200,9 +200,9 @@ JWT header.</p></dd>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-length</span>: 623</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">content-type</span>: application/x-www-form-urlencoded</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">host</span>: example.com</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">user-agent</span>: httr2/1.2.1.9000 r-curl/7.0.0 libcurl/8.5.0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">user-agent</span>: httr2/1.2.2.9000 r-curl/7.0.0 libcurl/8.5.0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> client_assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE3NjEyOTQyNzYsIm5iZiI6MTc2MTI5Mzk3NiwiaWF0IjoxNzYxMjkzOTc2LCJqdGkiOiJlVXFMQkphSWYwTnNhQ3ZLLVE2QnIwMkx4NmJjQU8xY200MzQxcE9ETkJnIn0.WRTIXjGrAZ21h4HQUr8y5JyyP0OVr2m0qrhi8XgZ4eSjBbzmEb4tGwi2ik_29b8EhB_L9X0d2A_6yQdlcBxsyg52svHfCozz8o-DLhRVJUP94B51PYHOFr0__QQF3jEdRRIPMaJp5ugiAuYuZ5VpfPN4Pc1Y__f0FxDDpbVwUES57U_aikALOEqx6i9rgvoWhtsV6y5udvgPBrNB4F-ds5IDWLLHN6mnejAHDJ_PpSbEk8S-WeMJDS1ue1qlI5cjkTC7vJmMN6KVbx1gEH94MpBTbjUiKNA7vN0aSrgCgWYE0DfJ1tzwVsv2JKgUBLuYR5u6zMCfotRap2GFJu6WAA&amp;client_assertion_type=urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> client_assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE3NjY0MTMxNjYsIm5iZiI6MTc2NjQxMjg2NiwiaWF0IjoxNzY2NDEyODY2LCJqdGkiOiI2NXZUTTN2QTFlaTN6TTNoSHJIU2p3TGE0dHpWNmlteTVWd2doLUtHTXZJIn0.BP4ldkzkzadhViiKdPbAWdHC5uBdrMKopkIMHd7qFcdAUE5e66KZZ8gWKTd4FqOJxjevIvPslVebk4FZU9NW7vCTB8KFNCWMta8RQqEPzt5lU4qHmYBnKF2vPTZs2MysTBWDMrDawlOcNVUgNzT8vB0bzvF8VrfLHP5oBKf63-CGb2J_CeXb4nw5E7nkF_Rn8l0B3CeGJ8usTZKrdD25tLHRsRQFopwUu5q9f5DqFdmemnIA2cKjgXGnQFOqgdvKFKKTlwEMZ1ObHpkysyPvofm7ob5lHYAridrAeDil1cxb9UgOXcJ1A6jWjM-ysLltrY7XkAx0e6zBjrGrf8kdGg&amp;client_assertion_type=urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
@@ -216,7 +216,7 @@ JWT header.</p></dd>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
   </div></footer></body></html>
