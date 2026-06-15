@@ -59,31 +59,31 @@ fun <- function() {
 with_verbosity(fun())
 #> -> GET / HTTP/2
 #> -> Host: httr2.r-lib.org
-#> -> User-Agent: httr2/1.2.2.9000 r-curl/7.0.0 libcurl/8.5.0
+#> -> User-Agent: httr2/1.2.2.9000 r-curl/7.1.0 libcurl/8.5.0
 #> -> Accept: */*
 #> -> Accept-Encoding: deflate, gzip, br, zstd
 #> -> 
 #> <- HTTP/2 200 
 #> <- server: GitHub.com
 #> <- content-type: text/html; charset=utf-8
-#> <- last-modified: Mon, 08 Dec 2025 15:04:45 GMT
+#> <- last-modified: Tue, 03 Mar 2026 22:14:50 GMT
 #> <- access-control-allow-origin: *
-#> <- etag: W/"6936e90d-4b79"
-#> <- expires: Mon, 22 Dec 2025 14:24:25 GMT
+#> <- etag: W/"69a75d5a-4b79"
+#> <- expires: Mon, 15 Jun 2026 08:57:14 GMT
 #> <- cache-control: max-age=600
 #> <- content-encoding: gzip
 #> <- x-proxy-cache: MISS
-#> <- x-github-request-id: CC58:21C8FD:186A963:1944082:69495240
+#> <- x-github-request-id: 9EE8:1E6566:2E6E605:2FA949A:6A2FBC11
 #> <- accept-ranges: bytes
-#> <- date: Mon, 22 Dec 2025 14:14:47 GMT
+#> <- date: Mon, 15 Jun 2026 08:47:36 GMT
 #> <- via: 1.1 varnish
-#> <- age: 22
-#> <- x-served-by: cache-sjc1000127-SJC
+#> <- age: 21
+#> <- x-served-by: cache-bfi-krnt7300084-BFI
 #> <- x-cache: HIT
 #> <- x-cache-hits: 5
-#> <- x-timer: S1766412887.382783,VS0,VE0
+#> <- x-timer: S1781513256.052240,VS0,VE0
 #> <- vary: Accept-Encoding
-#> <- x-fastly-request-id: 052cbaed74ad8daf437562727641a3bf4f9c199f
+#> <- x-fastly-request-id: a88c383b4b53bb97ccbc3d3873a2b1889adeff5f
 #> <- content-length: 4833
 #> <- 
 #> <httr2_response>
