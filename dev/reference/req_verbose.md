@@ -88,21 +88,21 @@ resp <- request("https://httr2.r-lib.org") |>
 #> <- last-modified: Tue, 03 Mar 2026 22:14:50 GMT
 #> <- access-control-allow-origin: *
 #> <- etag: W/"69a75d5a-4b79"
-#> <- expires: Mon, 15 Jun 2026 08:57:14 GMT
+#> <- expires: Mon, 15 Jun 2026 18:43:27 GMT
 #> <- cache-control: max-age=600
 #> <- content-encoding: gzip
 #> <- x-proxy-cache: MISS
-#> <- x-github-request-id: 9EE8:1E6566:2E6E605:2FA949A:6A2FBC11
+#> <- x-github-request-id: D620:F8484:5A696F:636A06:6A304577
 #> <- accept-ranges: bytes
-#> <- date: Mon, 15 Jun 2026 08:47:30 GMT
+#> <- date: Mon, 15 Jun 2026 19:55:01 GMT
 #> <- via: 1.1 varnish
-#> <- age: 16
-#> <- x-served-by: cache-bfi-krnt7300084-BFI
+#> <- age: 522
+#> <- x-served-by: cache-chi-kmdw8640058-CHI
 #> <- x-cache: HIT
 #> <- x-cache-hits: 1
-#> <- x-timer: S1781513251.603546,VS0,VE1
+#> <- x-timer: S1781553301.410644,VS0,VE1
 #> <- vary: Accept-Encoding
-#> <- x-fastly-request-id: 3496afc005f909329a5b00560a27991e81e0a84a
+#> <- x-fastly-request-id: 263349d900a6015345d625dd1c33786ac2f37fc1
 #> <- content-length: 4833
 #> <- 
 
@@ -121,21 +121,21 @@ resp <- request("https://httr2.r-lib.org") |>
 #> <- last-modified: Tue, 03 Mar 2026 22:14:50 GMT
 #> <- access-control-allow-origin: *
 #> <- etag: W/"69a75d5a-4b79"
-#> <- expires: Mon, 15 Jun 2026 08:57:14 GMT
+#> <- expires: Mon, 15 Jun 2026 18:43:27 GMT
 #> <- cache-control: max-age=600
 #> <- content-encoding: gzip
 #> <- x-proxy-cache: MISS
-#> <- x-github-request-id: 9EE8:1E6566:2E6E605:2FA949A:6A2FBC11
+#> <- x-github-request-id: D620:F8484:5A696F:636A06:6A304577
 #> <- accept-ranges: bytes
-#> <- date: Mon, 15 Jun 2026 08:47:30 GMT
+#> <- date: Mon, 15 Jun 2026 19:55:01 GMT
 #> <- via: 1.1 varnish
-#> <- age: 16
-#> <- x-served-by: cache-bfi-krnt7300084-BFI
+#> <- age: 522
+#> <- x-served-by: cache-chi-kmdw8640058-CHI
 #> <- x-cache: HIT
 #> <- x-cache-hits: 2
-#> <- x-timer: S1781513251.620450,VS0,VE0
+#> <- x-timer: S1781553301.423492,VS0,VE0
 #> <- vary: Accept-Encoding
-#> <- x-fastly-request-id: 5c13bcf2ba8d1e1268c74dbdf4af741a05375b78
+#> <- x-fastly-request-id: 3bddd03640aa69eeda1b694edaa44e42f4d30f9e
 #> <- content-length: 4833
 #> <- 
 ```

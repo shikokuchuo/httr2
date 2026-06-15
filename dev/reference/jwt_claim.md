@@ -106,6 +106,6 @@ str(claim)
 #>  $ exp: num 1.78e+09
 #>  $ nbf: num 1.78e+09
 #>  $ iat: num 1.78e+09
-#>  $ jti: chr "_1WCXsftgwHk1Xzmyc-iWIhh-oLfoLciF8IqUYEm7Ws"
+#>  $ jti: chr "UxDtz_zj4ZGUoaQGwKP5zbC972SkcyR_TxQMklZaZcs"
 #>  - attr(*, "class")= chr [1:2] "jwt_claim" "list"
 ```
