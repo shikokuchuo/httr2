@@ -38,7 +38,13 @@ oauth_client_req_auth_header(req, client)
 
 oauth_client_req_auth_body(req, client)
 
-oauth_client_req_auth_jwt_sig(req, client, claim, size = 256, header = list())
+oauth_client_req_auth_jwt_sig(
+  req,
+  client,
+  claim = NULL,
+  size = 256,
+  header = list()
+)
 ```
 
 ## Arguments
@@ -132,5 +138,5 @@ req_dry_run(oauth_client_req_auth(req, client3))
 #> host: example.com
 #> user-agent: httr2/1.2.2.9000 r-curl/7.1.0 libcurl/8.5.0
 #> 
-#> client_assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE3ODE1NTM1ODcsIm5iZiI6MTc4MTU1MzI4NywiaWF0IjoxNzgxNTUzMjg3LCJqdGkiOiJ3TGFuSDJoNkJnRnVTSUF0ZDJweFYyWVltdS1TRVhlbnJkX0s2WDIxUENnIn0.SKVxdyCJTyKQ7aez8lFw2ELMt3v1ECdSxjQ2wmBtyXQYk1_DPpwKit8ikU9qlms4hhfTnlfVvHgcaO1x5Divs6DA4FB6Q5g97EFqO6WLUexwZcvWTOEA_FDD7Ow8vztmaJw2DNpamYQkIaBoVNXnbMu_PrYPAqzxmfNoCXKdqRG8BBoXo-j-BSdtEcqgPKrV-i9wi5prkhwhkjh-vicq9oMX1pUtmp5JeexLixC8rSkE6o_obn8v3E__xzaGhLDCLWpTE9lWrI8aATdZqLkbIuwuaHpm1pFO8Vv_qpIBLMXG00uDstKgQ9t7ygMRLkXsn3AHxhAPId79OGfi69s5eA&client_assertion_type=urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer
+#> client_assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE3ODE5NTAwMzAsIm5iZiI6MTc4MTk0OTczMCwiaWF0IjoxNzgxOTQ5NzMwLCJqdGkiOiJwTDFmdVFZQjd5cjBpTGF2ZkVhWmQwazhOa2RvQm55a0JobFlGWV8zZmpJIn0.GEkh4d4ItRdA2NuBd2T4qFpkfAeQ4jE7DqoLv_3uQ2pIDT2mg-8sTnjgkhS8qwZVuMYETDIRNS4K4qqa7_C9Kp0LAp3DSC20QrsLcX1q9_Cg7lfpyTjbTlnZ-3YwkxC-JVkQ5R4dkS2ypLmL7BFu4AJnW3JGPGiII-VYPM9qk-O7aYg2ulyDJQ-sxXM2w11hgqr8ywiu_sGtotsDekKaEIU2gVKlgUeO13WzltDKuaGfq7uIYPYrZQmTJiY0Dmk8S7S0KQ69cslUA8NNslPX1lQnNFtrCg9j1mI_HYkAv7XUBmlwwt9CNuTF_CzXCVdDBTxKhHQxSDMWex2_VkaouQ&client_assertion_type=urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer
 ```
